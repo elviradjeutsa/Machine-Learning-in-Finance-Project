@@ -1,0 +1,14 @@
+{
+  "S0": 100.0,
+  "K": 100.0,
+  "T": 1.0,
+  "r": 0.02,
+  "sigma": 0.2,
+  "N": 20,
+  "n_train": 20000,
+  "n_val": 5000,
+  "n_test": 5000,
+  "option_type": "european_call",
+  "transaction_cost_rate": 0.001,
+  "seed": 42
+}
