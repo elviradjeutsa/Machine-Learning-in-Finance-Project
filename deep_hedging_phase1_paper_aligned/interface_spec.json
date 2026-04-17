@@ -1,0 +1,10 @@
+{
+  "expected_shape": "(n_paths, N, 2)",
+  "convention": "hedges[i, t, j] is the position in tradable asset j held on interval [t, t+1] for path i",
+  "recommended_files": [
+    "hedges_base_test.npy",
+    "hedges_asymmetric_loss_test.npy",
+    "hedges_transaction_cost_test.npy"
+  ],
+  "liquidity_constraint": "positions and position increments must satisfy the liquidity bounds stored in config['liquidity']"
+}

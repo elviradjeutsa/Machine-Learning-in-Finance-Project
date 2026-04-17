@@ -1,0 +1,9 @@
+{
+  "expected_shape": "(n_paths, N)",
+  "convention": "hedges[i, t] is the hedge applied on interval [t, t+1]",
+  "recommended_files": [
+    "hedges_base_test.npy",
+    "hedges_asymmetric_loss_test.npy",
+    "hedges_transaction_cost_test.npy"
+  ]
+}
