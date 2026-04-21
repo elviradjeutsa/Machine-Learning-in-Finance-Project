@@ -1,0 +1,11 @@
+numpy
+matplotlib
+jupyter
+torch
+scipy
+nbimporter
+
+# qualité du code
+black
+nbqa
+flake8
