@@ -1,0 +1,22 @@
+[
+  {
+    "model":"Asymmetric loss",
+    "mse_hedging_error":0.0672240504,
+    "net_pnl_mean":-0.2689414394,
+    "net_pnl_std":0.1398716693,
+    "net_pnl_q05":-0.5162631892,
+    "net_pnl_cvar05":-0.6402830719,
+    "mean_transaction_cost":0.0488763532,
+    "mean_turnover":2.4438176155
+  },
+  {
+    "model":"Baseline (MSE)",
+    "mse_hedging_error":0.066898382,
+    "net_pnl_mean":-0.2710146353,
+    "net_pnl_std":0.1412029522,
+    "net_pnl_q05":-0.5390641364,
+    "net_pnl_cvar05":-0.6738555093,
+    "mean_transaction_cost":0.0508504588,
+    "mean_turnover":2.5425229073
+  }
+]

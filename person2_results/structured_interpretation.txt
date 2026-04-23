@@ -1,0 +1,9 @@
+The two strategies display very similar hedging-error MSE values: 0.0669 for the baseline and 0.0672 for the asymmetric-loss specification. This indicates that the alternative loss does not materially improve average replication accuracy.
+
+In net PnL terms, the baseline has mean -0.2710 and standard deviation 0.1412, while the asymmetric-loss strategy has mean -0.2689 and standard deviation 0.1399. The two specifications therefore remain close in average performance.
+
+The main difference appears in downside risk. The 5% net-PnL quantile improves from -0.5391 under the baseline to -0.5163 under the asymmetric loss, while the corresponding CVaR improves from -0.6739 to -0.6403. This shows that the asymmetric loss reduces the severity of adverse outcomes.
+
+Average transaction costs also decrease from 0.0509 to 0.0489, and average turnover decreases from 2.5425 to 2.4438. The asymmetric-loss strategy is therefore associated with a slightly less aggressive trading policy.
+
+Overall, the change in loss function affects the risk profile of the strategy more than its average MSE performance. The asymmetric specification leads to a more conservative hedge, with improved downside protection and slightly lower implementation costs.
