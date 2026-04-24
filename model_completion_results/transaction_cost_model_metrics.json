@@ -1,0 +1,11 @@
+{
+  "model": "transaction_cost_aware",
+  "mse_gross_error": 0.0710584968328476,
+  "mse_net_error": 0.08695074915885925,
+  "mean_gross_error": -0.21924401819705963,
+  "mean_net_error": -0.25090306997299194,
+  "std_net_error": 0.15491414070129395,
+  "net_q05": -0.5320312976837158,
+  "net_cvar05": -0.6677467226982117,
+  "mean_transaction_cost": 0.03165905550122261
+}

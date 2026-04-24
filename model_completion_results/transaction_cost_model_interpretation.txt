@@ -1,0 +1,9 @@
+The transaction-cost-aware model is trained by including implementation costs directly in the objective function. This differs from an ex-post cost analysis because the trading policy can adapt during training to reduce costly rebalancing.
+
+The transaction-cost-aware strategy reaches a net-error MSE of 0.0870, compared with 0.0934 for the MSE baseline and 0.0919 for the asymmetric loss. Its average net error is -0.2509, with a 5% CVaR of -0.6677.
+
+The main effect of including transaction costs in the objective is a clear reduction in trading intensity. Average turnover decreases from 2.5425 for the MSE baseline to 1.5830, and average transaction costs decrease from 0.0509 to 0.0317.
+
+This improvement in implementation cost comes with a trade-off. The gross hedging-error MSE increases from 0.0669 under the MSE baseline to 0.0711 under the transaction-cost-aware model. Moreover, the asymmetric-loss model remains slightly better in downside-risk terms, with a CVaR of -0.6403 against -0.6677 for the transaction-cost-aware model.
+
+Overall, the transaction-cost-aware strategy confirms the expected economic mechanism: by internalizing frictions during training, the model learns a less aggressive trading policy. The resulting hedge is cheaper to implement and improves net-error MSE, but it sacrifices part of the gross replication accuracy and does not fully dominate the asymmetric-loss strategy in tail-risk protection.
